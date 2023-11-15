@@ -290,6 +290,11 @@ def dalle3(img_desc):
 # Define custom styles for justified text
 
 def main():
+    st.set_page_config(
+    page_title="StoryCraft",
+    page_icon="👾",
+    )
+
     justified_text_style = '''
     <style>
     .justified-text {
