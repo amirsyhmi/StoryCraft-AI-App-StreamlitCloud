@@ -278,6 +278,7 @@ def dalle3(img_desc):
     images = client.images.generate(
         model = 'dall-e-3',
         prompt=f"""
+        Generate an video games poster image based on this prompt:
         {img_desc}""",
         size="1024x1024",
         n=1
